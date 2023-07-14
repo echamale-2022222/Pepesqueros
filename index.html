@@ -17,18 +17,24 @@
 
             <ul class="nav__link nav__link--menu">
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Inicio</a>
+                    <a href="#inicio" class="nav__links">Inicio</a>
                 </li>
                 <li class="nav__items">
-                    <a href="#" class="nav__links">Acerca de</a>
+                    <a href="#acercaDe" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#planesPesca" class="nav__links">Planes de pesca</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#epocaPesca" class="nav__links">Epocas de pesca</a>
+                </li>
+                </li>
+                <li class="nav__items">
+                    <a href="#peces" class="nav__links">Peces</a>
                 </li>
                 <li class="nav__items">
                     <a href="./src/sobremi/sobremi.html" class="nav__links">Contacto</a>
                 </li>
-                <li class="nav__items">
-                    <a href="#" class="nav__links">Blog</a>
-                </li>
-
                 <img src="./images/close.svg" class="nav__close">
             </ul> 
 
@@ -37,10 +43,10 @@
             </div>
         </nav>
 
-        <section class="hero__container container">
+        <section class="hero__container container" id="inicio">
             <h1 class="hero__title">La pesca en Guatemala.</h1>
             <p class="hero__paragraph">Descubre las diferentes formas de como se da la pesca en Guatemala.</p>
-            <a href="#" class="cta">Descubre ahora</a>
+            <a href="src/tipoPesca/tipoPesca.html" class="cta">Descubre ahora</a>
         </section>
     </header>
 
@@ -54,37 +60,29 @@
                 <article class="about__icons">
                     <img src="./images/html.svg" class="about__icon">
                     <h3 class="about__title">HTML</h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Ratione quaerat itaque rem obcaecati, sed debitis ad ipsam, aliquam 
-                    exercitationem optio laborum adipisci perferendis deserunt harum dolores tempore unde reprehenderit voluptatem.</p>
+                    <p class="about__paragraph">HTML (HyperText Markup Language) es el lenguaje de marcado estándar utilizado para crear la estructura y el contenido de páginas web. Utiliza etiquetas para definir elementos como encabezados, párrafos, imágenes, enlaces, formularios y otros elementos visuales y funcionales en una página web.</p>
                 </article>
                 
                 <article class="about__icons">
                     <img src="./images/css.svg" class="about__icon">
                     <h3 class="about__title">CSS</h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Ratione quaerat itaque rem obcaecati, sed debitis ad ipsam, aliquam 
-                    exercitationem optio laborum adipisci perferendis deserunt harum dolores tempore unde reprehenderit voluptatem.</p>
+                    <p class="about__paragraph">CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado para definir la apariencia y el diseño de los elementos HTML en una página web. Permite controlar aspectos como el color, la fuente, el tamaño, el espaciado, la disposición y otros atributos visuales de los elementos HTML.</p>
                 </article>
 
                 <article class="about__icons">
                     <img src="./images/javascript.svg" class="about__icon">
                     <h3 class="about__title">JavaScript</h3>
-                    <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing
-                    elit. Ratione quaerat itaque rem obcaecati, sed debitis ad ipsam, aliquam 
-                    exercitationem optio laborum adipisci perferendis deserunt harum dolores tempore unde reprehenderit voluptatem.</p>
+                    <p class="about__paragraph">JavaScript (JS) es un lenguaje de programación utilizado para agregar interactividad y funcionalidad a las páginas web. A diferencia de HTML y CSS, que se centran en la estructura y el diseño, JavaScript se utiliza para realizar acciones y manipulaciones en respuesta a eventos del usuario o cambios en la página.</p>
                 </article>
             </div>
         </section>
 
         <section class="knowledge">
-            <div class="knowledge__container container">
+            <div class="knowledge__container container" id="acercaDe">
                 <div class="knowledege__texts">
                     <h2 class="subtitle">Pesca en Guatemala</h2>
-                    <p class="knowledge__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio unde ratione maiores culpa nemo
-                    nam, voluptates iste, inventore ipsa repellat aspernatur eligendi ad eos fugiat debitis! Similique numquam perspiciatis
-                    pariatur.</p>
-                    <a href="#" class="cta">Aprende más</a>
+                    <p class="knowledge__paragraph">En las costas guatemaltecas, se practica la pesca artesanal e industrial. La pesca artesanal se lleva a cabo principalmente en comunidades costeras, donde los pescadores utilizan métodos tradicionales y embarcaciones pequeñas para capturar peces y mariscos. Por otro lado, la pesca industrial se realiza con embarcaciones más grandes y equipos modernos, y se enfoca en la captura de especies comerciales en cantidades mayores.</p>
+                    <a href="src/lugaresPesca/lugaresPesca.html" class="cta">Aprende más</a>
                 </div>
 
                 <figure class="knowledge__picture">
@@ -93,49 +91,49 @@
             </div>
         </section>
 
-        <section class="price container">
-            <h2 class="subtitle">Obten información adicional</h2>
+        <section class="price container" id="planesPesca">
+            <h2 class="subtitle">Planes para ir a pescar</h2>
 
             <div class="price__table">
                 <div class="price__element">
-                    <p class="price__name">Flexbox</p>
-                    <h3 class="price__price">Free</h3>
+                    <p class="price__name">Pesca de camarones en la costa</p>
+                    <h3 class="price__price">100$ por persona</h3>
 
                     <div class="price__items">
-                        <p class="price__features">Flexbox</p>
-                        <p class="price__features">Layouts</p>
-                        <p class="price__features">Responsive</p>
+                        <p class="price__features">Salida en bote para pescar</p>
+                        <p class="price__features">Redes de arrastre</p>
+                        <p class="price__features">Recorrido guiado</p>
                     </div>
 
-                    <a href="#" class="price__cta">Empieza ahora </a>
+                    <a href="#" class="price__cta">Aparta ahora </a>
 
                 </div>
 
                 <div class="price__element price__element--best">
-                    <p class="price__name">Grid</p>
-                    <h3 class="price__price">$30/mes</h3>
+                    <p class="price__name">Pesca deportiva</p>
+                    <h3 class="price__price">$500 por persona</h3>
 
                     <div class="price__items">
-                    <p class="price__features">Grid</p>
-                        <p class="price__features">Implicit Grid</p>
-                        <p class="price__features">Responsive</p>
+                    <p class="price__features">Excursion de día completo</p>
+                        <p class="price__features">Equipo de pesca y señuelos</p>
+                        <p class="price__features">Guía de pesca experimentada</p>
                     </div>
 
-                    <a href="#" class="price__cta">Empieza ahora </a>
+                    <a href="#" class="price__cta">Aparta ahora </a>
 
                 </div>
 
                 <div class="price__element">
-                    <p class="price__name"> Animaciones</p>
-                    <h3 class="price__price">$40/mes</h3>
+                    <p class="price__name">Pesca recreativa Lago</p>
+                    <h3 class="price__price">$300 por persona</h3>
 
                     <div class="price__items">
-                        <p class="price__features">Animation</p>
-                        <p class="price__features">Transition</p>
-                        <p class="price__features">Render Website</p>
+                        <p class="price__features">Excursión de medio día</p>
+                        <p class="price__features">Equipo de pesca y cebos</p>
+                        <p class="price__features">Guía local mejores zonas de pesca</p>
                     </div>
 
-                    <a href="#" class="price__cta">Empieza ahora </a>
+                    <a href="#" class="price__cta">Aparta ahora </a>
 
                 </div>
             </div>
@@ -148,42 +146,37 @@
 
                 <section class="testimony__body testimony__body--show" data-id="1">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Jordan Alexander, <span class="testimony__course">estudiante
-                                de CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque totam nulla repudiandae quasi, deserunt culpa exercitationem
-                            blanditiis laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        <h2 class="subtitle">Mi nombre es Jorge Sinibaldi, <span class="testimony__course">Pesca deportiva
+                                </span></h2>
+                        <p class="testimony__review">La pesca deportiva guatemalteca celebró un nuevo triunfo gracias a la hazaña de Jorge Sinibaldi, quien se proclamó campeón de la edición 78 del Mundial ILTTA 2018 de pesca deportiva que fue celebrado del 11 al 16 de noviembre.</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./images/face.jpg" class="testimony__img">
+                        <img src="images/jorgeSinibaldi.jpg" class="testimony__img">
                     </figure>
                 </section>
 
                 <section class="testimony__body" data-id="2">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Alejandra Perez, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, asperiores eaque laborum veniam laboriosam saepe reiciendis dolorem. Cum, ratione
-                            voluptatum!</p>
+                        <h2 class="subtitle">Mi nombre es Rodrigo Gúzman, <span class="testimony__course">Pesca deportiva
+                                </span></h2>
+                        <p class="testimony__review">El guatemalteco Rodrigo Guzmán se consagró campeón mundial de pesca deportiva en el "79th ILTTA 2019",  que se realizó en Cabo San Lucas, México.</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./images/face2.jpg" class="testimony__img">
+                        <img src="images/rodrigoGuzman.jpg" class="testimony__img">
                     </figure>
                 </section>
 
                 <section class="testimony__body" data-id="3">
                     <div class="testimony__texts">
-                        <h2 class="subtitle">Mi nombre es Karen Arteaga, <span class="testimony__course">estudiante de
-                                CSS.</span></h2>
-                        <p class="testimony__review">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut est
-                            esse, niam laboriosam saepe reiciendis dolorem. Cum, ratione voluptatum!</p>
+                        <h2 class="subtitle">Mi nombre es Alvaro de la Hoz, <span class="testimony__course">Pesca deportiva
+                                </span></h2>
+                        <p class="testimony__review">Tras la competencia, el guatemalteco Álvaro de la Hoz se consagró campeón del torneo, seguido del estadounidense Mark Repetski y del puertorriqueño Manolo Mantiezo.</p>
                     </div>
 
                     <figure class="testimony__picture">
-                        <img src="./images/face3.jpg" class="testimony__img">
+                        <img src="images/alvaro-de-la-hoz.jpg" class="testimony__img">
                     </figure>
                 </section>
 
@@ -192,69 +185,57 @@
         </section>
 
         <section class="questions container">
-            <h2 class="subtitle">Preguntas frecuentes</h2>
-            <p class="questions__paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
-                doloribus neque perspiciatis sapiente fuga.</p>
+            <h2 class="subtitle">Preguntas frecuentes sobre la pesca</h2>
+            <p class="questions__paragraph">Enterate sobre las preguntas que mas se repiten sobre la pesca</p>
 
             <section class="questions__container">
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué es CSS?
+                        <h3 class="questions__title">¿Cuáles son las especies de peces más comunes en la pesca de Guatemala?
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show">En Guatemala, algunas de las especies de peces más comunes en la pesca incluyen el atún, el dorado, el pez vela, el pargo, el camarón y la langosta. Estas especies son altamente valoradas tanto para el consumo interno como para la exportación.</p>
                     </div>
                 </article>
 
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué aprenderé en este curso?
+                        <h3 class="questions__title">¿Cuáles son los mejores destinos de pesca en Guatemala?
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show">Guatemala cuenta con diversos destinos de pesca, tanto en el océano como en los ríos y lagos. Algunos de los mejores destinos de pesca en el país son la costa del Pacífico, especialmente en áreas como Iztapa y Puerto San José, conocidas por la pesca de especies como el pez vela y el dorado. Además, el Lago de Izabal es un destino popular para la pesca de agua dulce, donde se pueden encontrar especies como el pez blanco y el sábalo.</p>
                     </div>
                 </article>
 
                 <article class="questions__padding">
                     <div class="questions__answer">
-                        <h3 class="questions__title">¿Qué es CSS GRID?
+                        <h3 class="questions__title">¿Cuáles son las regulaciones y temporadas de pesca en Guatemala?
                             <span class="questions__arrow">
                                 <img src="./images/arrow.svg" class="questions__img">
                             </span>
                         </h3>
 
-                        <p class="questions__show">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos
-                            facere, quidem eum id excepturi assumenda explicabo nam accusamus veritatis voluptates
-                            eveniet adipisci, dicta nihil nemo modi possimus officiis quam atque? Lorem ipsum, dolor sit
-                            amet consectetur adipisicing elit. Quos facere, quidem eum id excepturi assumenda explicabo
-                            nam accusamus veritatis voluptates eveniet adipisci, dicta nihil nemo modi possimus officiis
-                            quam atque?</p>
+                        <p class="questions__show">Guatemala tiene regulaciones y temporadas de pesca establecidas para garantizar la conservación de los recursos marinos y la sostenibilidad de la actividad pesquera. Algunas de las regulaciones comunes incluyen tallas mínimas para ciertas especies, temporadas de veda en las que la pesca está prohibida y zonas protegidas donde se restringe la actividad pesquera. Estas regulaciones varían según la especie y la ubicación. Es importante consultar las leyes y regulaciones pesqueras actualizadas y seguir las pautas establecidas para contribuir a la conservación de los recursos marinos.</p>
                     </div>
                 </article>
             </section>
 
-            <section class="questions__offer">
-                <h2 class="subtitle">¿Estas listo para aprender CSS?</h2>
-                <p class="questions__copy">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet ratione
-                    architecto magnam, officiis ex porro vero est voluptates quaerat quibusdam illo veniam reprehenderit
-                    eius atque tempora iure ab non autem.</p>
-                <a href="#" class="cta">Aprende ahora</a>
+            <section class="questions__offer" id="epocaPesca">
+                <h2 class="subtitle">¿Estas listo para conocer las epocas de la pesca?</h2>
+                <p class="questions__copy">En el siguiente blog encontraras toda la informacion sobre las epocas de pesca en Guatemala</p>
+                <a href="src/epocasPesca/epocaPesca.html" class="cta">Aprende más</a>
+            </section>
+
+            <section class="questions__offer" id="peces">
+                <h2 class="subtitle">¿Estas listo para conocer los peces de la pesca?</h2>
+                <p class="questions__copy">En el siguiente blog encontraras toda la informacion sobre los peces de la pesca en Guatemala</p>
+                <a href="src/peces/peces.html" class="cta">Aprende más</a>
             </section>
         </section>
     </main>
@@ -262,26 +243,33 @@
     <footer class="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
-                <h2 class="footer__title">Curso CSS.</h2>
+                <h2 class="footer__title">Pepesqueros</h2>
 
                 <ul class="nav__link nav__link--footer">
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Inicio</a>
+                        <a href="#inicio" class="nav__links">Inicio</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Acerca de</a>
+                        <a href="#acercaDe" class="nav__links">Acerca de</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Contacto</a>
+                        <a href="#planesPesca" class="nav__links">Planes de pesca</a>
                     </li>
                     <li class="nav__items">
-                        <a href="#" class="nav__links">Blog</a>
+                        <a href="#epocaPesca" class="nav__links">Epocas de pesca</a>
                     </li>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#peces" class="nav__links">Peces</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="./src/sobremi/sobremi.html" class="nav__links">Contacto</a>
+                    </li> 
                 </ul>
             </nav>
 
             <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
-                <h2 class="footer__newsletter">Suscribete a la newsletter</h2>
+                <h2 class="footer__newsletter">Suscribete a Pepesqueros</h2>
                 <div class="footer__inputs">
                     <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
                     <input type="submit" value="Registrate" class="footer__submit">
